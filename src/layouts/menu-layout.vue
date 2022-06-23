@@ -8,7 +8,7 @@ const menuOptions: MenuOption[] = [
     label: () => h(
       RouterLink,
       { to: { name: 'home' } },
-      { default: () => 'Home' }
+      { default: () => '我的首页' }
     ),
     key: 'home-page'
   },
@@ -16,7 +16,7 @@ const menuOptions: MenuOption[] = [
     label: () => h(
       RouterLink,
       { to: { name: 'help' } },
-      { default: () => 'Help' }
+      { default: () => '帮助中心' }
     ),
     key: 'help-page'
   }
